@@ -1,0 +1,97 @@
+/* css */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #cccccc;
+}
+
+p{
+  font-size: .8rem;
+}
+
+.title{
+  margin-top: 50px;
+  color: #1e1e1e;
+}
+
+.head{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 220px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f5f6f7;;
+}
+
+#location{
+  padding: 0 5px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+}
+
+#btn{
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0px #00000042;
+}
+
+.output{
+  background: linear-gradient(#333333, #00000042);
+  margin-top: 30px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 1px #00000042;
+  min-height: 220px;
+  min-width: 220px;
+  padding: 20px;
+}
+
+#name, #humidity, #speed, #temp, #pressure{
+  margin-top: 10px;
+}
+
+#temp{
+  font-size: 1.1rem;
+}
+
+.output-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#icon{
+  display: flex;
+  align-items: center;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 🌤️</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h2 class="title">Weather App</h2>
+
+    <!-- search field -->
+    <div class="head">
+        <input type="text" id="location" name="location" placeholder="location...">
+        <input type="button" id="btn" value="🔍">
+    </div>
+
+    <!-- output area -->
+    <div class="output">
+        <div class="output-head">
+            <h2 id="name"></h2>
+            <p id="temp"></p>
+        </div>
+
+        <span id="icon"></span>
+        <p id="humidity"></p>
+        <p id="speed"></p>
+        <p id="pressure"></p>
+    </div>
+
+    <!-- javascript -->
+    <script src="./app.js"></script>
+</body>
+</html>
