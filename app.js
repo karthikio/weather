@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btn = document.querySelector('#btn');
     const output = document.querySelector('.output');
 
-    const apiId = "6ecc21b866f6451785f4f772788d75a9";
+    const apiId = "YOUR_API_KEY";
 
     let temperature = 0;
     let locationInput = "";
